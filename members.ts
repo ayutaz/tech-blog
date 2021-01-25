@@ -2,56 +2,41 @@ import { Member } from "@src/types";
 
 export const members: Member[] = [
   {
-    name: "CatNose",
-    role: "CTO",
-    bio:
-      "デザインが好きなプログラマー。開発者向けの情報共有プラットフォームzenn.devを開発しています。",
-    avatarSrc: "/avatars/catnose.jpg",
+    name: "Kadinche",
+    role: "Company",
+    bio: "カディンチェ株式会社は、エンジニアリングで社会的価値を生むことに特化した会社です。",
+    avatarSrc: "/avatars/kadinche.png",
     sources: [
-      "https://zenn.dev/catnose99/feed",
-      "https://medium.com/feed/@catnose99",
+      "https://medium.com/feed/kadinche-engineering",
     ],
-    includeUrlRegex: "medium.com|zenn.dev",
-    twitterUsername: "catnose99",
-    githubUsername: "catnose99",
-    websiteUrl: "https://catnose99.com",
+    twitterUsername: "kadinche",
+    githubUsername: "kadinche"
   },
   {
-    name: "John Doe",
-    role: "SRE",
-    bio: "Site Reliability Engineer.",
-    avatarSrc: "/avatars/doe.jpg",
-    sources: ["https://note.com/catnose/rss"],
-    excludeUrlRegex: "n3a59e3cdd820",
-    twitterUsername: "catnose99",
+    name: "nikaera",
+    role: "Web dev",
+    bio:
+      "様々な技術領域に関心のある雑食系エンジニアです。自分の記事が誰かのお役に立てれば幸いです。",
+    avatarSrc: "/avatars/nikaera.jpg",
+    sources: [
+      "https://zenn.dev/nikaera/feed",
+      "https://qiita.com/nikaera/feed.atom",
+    ],
+    twitterUsername: "n1kaera",
+    githubUsername: "nikaera",
+    websiteUrl: "https://nikaera.com",
   },
   {
-    name: "Amanda",
-    role: "Frontend dev",
-    bio: "Frontend developer,",
-    avatarSrc: "/avatars/amanda.jpg",
-    sources: ["https://qiita.com/catnose99/feed.atom"],
-    twitterUsername: "catnose99",
-  },
-  {
-    name: "Takada Junji",
-    role: "Designer",
-    bio: "Designing all of the apps in Foo company.",
-    avatarSrc: "/avatars/junji.jpg",
-    sources: [],
-  },
-  {
-    name: "Ota Naoko",
-    role: "Researcher",
-    bio: "Some texts here",
-    avatarSrc: "/avatars/naoko.jpg",
-    sources: [],
-  },
-  {
-    name: "Alexandria",
-    role: "Tech Lead",
-    bio: "IT professional with 3 years of experience",
-    avatarSrc: "/avatars/alexandria.jpg",
-    sources: [],
+    name: "KOGA Mitsuhiro",
+    role: "VR dev",
+    bio: "よく扱うものはServer Side Java/Go/Unityです。",
+    avatarSrc: "/avatars/shiena.jpeg",
+    sources: [
+      "https://zenn.dev/shiena/feed",
+      "https://dev.to/feed/shiena",
+      "https://qiita.com/shiena/feed.atom",
+    ],
+    twitterUsername: "shiena",
+    githubUsername: "shiena"
   },
 ];
