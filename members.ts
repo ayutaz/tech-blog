@@ -8,6 +8,7 @@ export const members: Member[] = [
     avatarSrc: "/avatars/kadinche.png",
     sources: [
       "https://medium.com/feed/kadinche-engineering",
+      "https://qiita.com/organizations/kadinche/activities.atom"
     ],
     twitterUsername: "kadinche",
     githubUsername: "kadinche"
@@ -20,7 +21,6 @@ export const members: Member[] = [
     avatarSrc: "/avatars/nikaera.jpg",
     sources: [
       "https://zenn.dev/nikaera/feed",
-      "https://qiita.com/nikaera/feed.atom",
     ],
     twitterUsername: "n1kaera",
     githubUsername: "nikaera",
@@ -34,7 +34,6 @@ export const members: Member[] = [
     sources: [
       "https://zenn.dev/shiena/feed",
       "https://dev.to/feed/shiena",
-      "https://qiita.com/shiena/feed.atom",
     ],
     twitterUsername: "shiena",
     githubUsername: "shiena"
