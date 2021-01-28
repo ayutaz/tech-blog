@@ -19,13 +19,16 @@ const PostLink: React.FC<{ item: PostItem }> = (props) => {
   if (!member) return null;
 
   const hostname = getHostFromURL(link);
+  const avatarSrc = authorName === 'Kadinche' ?
+    '/avatars/kadinche_post_link.png' :
+    member.avatarSrc;
 
   return (
     <article className="post-link">
       <Link href={getMemberPath(member.name)} passHref>
         <a className="post-link__author">
           <img
-            src={member.avatarSrc}
+            src={avatarSrc}
             className="post-link__author-img"
             width={35}
             height={35}
