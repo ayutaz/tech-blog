@@ -17,7 +17,9 @@ jobs:
           ref: ${{ github.event.inputs.ref }}
       - name: Recreate all posts
         shell: bash
-        run: npm run build:posts
+        run: |
+          npm install
+          npm run build:posts
       - uses: amondnet/vercel-action@v20
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }} # Required
