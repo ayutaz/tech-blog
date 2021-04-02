@@ -38,4 +38,15 @@ export const members: Member[] = [
     twitterUsername: "shiena",
     githubUsername: "shiena"
   },
+  {
+    name: "yousan",
+    role: "VR dev",
+    bio: "xR/Unityを主に触っています．ゲームも作っています",
+    avatarSrc: "/avatars/yousan.jpg",
+    sources: [
+      "https://ayousanz.hatenadiary.jp/rss",
+    ],
+    twitterUsername: "ayousanz",
+    githubUsername: "ayutaz"
+  },
 ];
