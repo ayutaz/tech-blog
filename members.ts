@@ -14,19 +14,6 @@ export const members: Member[] = [
     githubUsername: "kadinche"
   },
   {
-    name: "nikaera",
-    role: "Web dev",
-    bio:
-      "様々な技術領域に関心のある雑食系エンジニアです。自分の記事が誰かのお役に立てれば幸いです。",
-    avatarSrc: "/avatars/nikaera.jpg",
-    sources: [
-      "https://zenn.dev/nikaera/feed",
-    ],
-    twitterUsername: "n1kaera",
-    githubUsername: "nikaera",
-    websiteUrl: "https://nikaera.com",
-  },
-  {
     name: "KOGA Mitsuhiro",
     role: "VR dev",
     bio: "よく扱うものはServer Side Java/Go/Unityです。",
